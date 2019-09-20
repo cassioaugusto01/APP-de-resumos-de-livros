@@ -34,6 +34,11 @@ HTML5, CSS3 e Javascriptt já é o suficiente pra versão inicial.
 - Django
 - Kivy
 
+# Recursos para adicionar nas proximas versões:
+
+Conhecimentos de data science são ótimos para organizar os resumos, fazer estatísticas de acesso, saber quais os conteúdos mais acessados, dar recomendações de outros resumos para a pessoa ler, etc. Por exemplo, se uma pessoa leu o resumo da biografia do bill gates e do steve jobs, o app pode prever que a pessoa tem interesse no resumo biografia do mark zuckerberg.
+
+
 
 
 
