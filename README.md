@@ -5,6 +5,18 @@ O Projeto é um aplicativo para organizar e disponibilizar resumos de livros em 
 Os resumos serão feitos de forma colaborativa pelos próprios usuários do APP. Os usuários do app poderão ler os resumos e/ou colaborar adicionando novos resumos de livros.
 Não precisa se limitar a livros, pode ser também para resumos de conceitos, ideias, anotações de aula ou algum conhecimento específico.
 
+# Features(A Fazer)
+
+- Listar todos os resumos disponíveis
+- Buscar resumo por nome do livro ou autor
+- Ler o resumo
+- Armazenar o resumo para ler offline
+- Publicar novo resumo
+- Sugerir livro para resumir
+- Listar os livros resumidos
+- Verificação anti-robo
+- Sintetizador de voz para ouvir o texto
+
 # Arquitetura da Aplicação
 
 # Back-end
@@ -32,13 +44,23 @@ Os resumos de livros srão baixados para o App em formato JSON
 
 # Modelagem dos dados
 
-O Resumo de livro possui:
+Livro Possui
 
+- ID
 - Titulo do Livro
-- Nomes dos Autores
+- Nomes dos Autores do Livro
 - ISBN
 - Link para imagem da capa
+
+O Resumo de livro possui:
+
+- ID do livro
 - Texto do Resumo
+- Autor do Resumo
+- nota(usuarios podem dar notas para a qualidade de cada resumo)
+- outras fontes de informação
+
+Cada livro pode possuir mais de um resumo, feito por autores diferentes.
 
 # Linguagens de Programação e Tecnologias que usaremos no projeto
 
