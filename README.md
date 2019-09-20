@@ -22,6 +22,24 @@ O App mutiplataforma poderá ser desenvolvido usando Python com Kivy
 
 HTML5, CSS3 e Javascriptt já é o suficiente pra versão inicial.
 
+# Conexão do APP com a Rede Distribuída
+
+Tem varias formas de resolver esse problema
+uma delas é o aplicativo vir com uma lista de ips e/ou domínios.
+qualquer um dos dos domínios da lista vai retornar a lista dos servidores conectados a rede e aí o o usuário do app vai ver a lista de livros disponíveis na rede e vai poder escolher um para ler, o que ele escolher, fica gravado no celular dele para ler offline.
+Essa é uma forma de resolver isso, mas é um projeto opensource, se outra pessoa tiver alguma solução mais eficiente que esse, pode usar.
+Os resumos de livros srão baixados para o App em formato JSON
+
+# Modelagem dos dados
+
+O Resumo de livro possui:
+
+- Titulo do Livro
+- Nomes dos Autores
+- ISBN
+- Link para imagem da capa
+- Texto do Resumo
+
 # Linguagens de Programação e Tecnologias que usaremos no projeto
 
 - Python
@@ -34,12 +52,11 @@ HTML5, CSS3 e Javascriptt já é o suficiente pra versão inicial.
 - Django
 - Kivy
 
-# Recursos para adicionar nas proximas versões:
+# Data Science
 
 Conhecimentos de data science são ótimos para organizar os resumos, fazer estatísticas de acesso, saber quais os conteúdos mais acessados, dar recomendações de outros resumos para a pessoa ler, etc. Por exemplo, se uma pessoa leu o resumo da biografia do bill gates e do steve jobs, o app pode prever que a pessoa tem interesse no resumo biografia do mark zuckerberg.
 
+# Tecnologias para usar futuramente na arquitetura distribuida
 
-
-
-
-
+Blockchain do Ethereum (https://www.ethereum.org/)
+IPFS (https://ipfs.io/)
