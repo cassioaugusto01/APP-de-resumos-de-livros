@@ -42,6 +42,9 @@ Qualquer pessoa pode pegar o código opensource e subir um novo servidor para ma
 
 O App mutiplataforma poderá ser desenvolvido usando Python com Kivy
 
+Material de estudo para quem tem mais interesse na parte de desenvolver APP Multiplataforma em Python com Kivy: https://pythonacademy.com.br/blog/desenvolva-aplicativos-para-android-ios-com-python-e-kivy
+https://www.vivaolinux.com.br/dica/Criando-aplicativos-multiplataforma-Android-iOS-Windows-com-Python-Kivy
+
 ## Front-end Web
 
 HTML5, CSS3 e Javascript já é o suficiente pra versão inicial.
