@@ -30,6 +30,17 @@ O Back-end vai armazenar e fornecer para o app os resumos de livros que já esti
 O Back-end será distribuído, sem um servidor central, formando uma rede descentralizada. 
 Qualquer pessoa pode pegar o código opensource e subir um novo servidor para manter o app funcionando
 
+Material de estudo pra quem for desenvolver o back-end do projeto que basicamente é uma API Rest que retorna informações sobre resumo dos livros em JSON: https://medium.com/@marcosrabaioli/criando-uma-api-rest-utilizando-django-rest-framework-parte-1-55ac3e394fa
+
+Introdução a API REST: https://becode.com.br/o-que-e-api-rest-e-restful/
+
+Conhecimentos sobre JSON que é o formato de dados para a comunicação entre o front-end e o back-end: https://pythonhelp.wordpress.com/2013/03/21/acessando-conteudo-via-apis-web-baseadas-em-json/
+https://www.w3schools.com/python/python_json.asp
+https://pt.wikipedia.org/wiki/JSON
+
+Software para testar APIS REST
+https://insomnia.rest/download/
+
 # Front-End(A Fazer)
 
 - página inicial com um catálogo dos resumos e espaço para colocar titulo e imagem da capa do livro.
@@ -37,6 +48,7 @@ Qualquer pessoa pode pegar o código opensource e subir um novo servidor para ma
 - opção para ouvir a versão em áudio do resumo.
 - Sistema de login com e-mail e senha
 
+Outro conhecimento importante pro projeto: saber consumir uma API Rest com Python. Precisa aprender isso quem for consumir a API REST do Back-End: https://www.youtube.com/watch?v=SKlF2PmIkrU
 
 ## Front-end Mobile
 
@@ -98,3 +110,9 @@ Conhecimentos de data science são ótimos para organizar os resumos, fazer esta
 
 Blockchain do Ethereum (https://www.ethereum.org/)
 IPFS (https://ipfs.io/)
+https://medium.com/clebertech/o-guia-definitivo-do-ipfs-2e87d684e355
+
+# Como contribuir com o Projeto
+
+Como Criar um Pull Request no GitHub para contribuir com o projeto
+https://www.digitalocean.com/community/tutorials/como-criar-um-pull-request-no-github-pt
