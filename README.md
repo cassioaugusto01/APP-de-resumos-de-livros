@@ -1,8 +1,11 @@
 # APP-de-resumos-de-livros
 
 O Projeto é um aplicativo para organizar e disponibilizar resumos de livros em texto e audio para quem quer estudar na rua com celular ou tablet.
+
 É uma alternativa aos aplicativos pagos de resumos de livros.
+
 Os resumos serão feitos de forma colaborativa pelos próprios usuários do APP. Os usuários do app poderão ler os resumos e/ou colaborar adicionando novos resumos de livros.
+
 Não precisa se limitar a livros, pode ser também para resumos de conceitos, ideias, anotações de aula ou algum conhecimento específico.
 
 # Features(A Fazer)
