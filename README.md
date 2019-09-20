@@ -13,7 +13,7 @@ Não precisa se limitar a livros, pode ser também para resumos de conceitos, id
 - Armazenar o resumo para ler offline
 - Publicar novo resumo
 - Sugerir livro para resumir
-- Listar os livros resumidos
+- Listar os livros sugeridos
 - Verificação anti-robo
 - Sintetizador de voz para ouvir o texto
 
