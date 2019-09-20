@@ -19,6 +19,7 @@ Não precisa se limitar a livros, pode ser também para resumos de conceitos, id
 - Listar os livros sugeridos
 - Verificação anti-robo
 - Sintetizador de voz para ouvir o texto
+- Sistema de login com e-mail e senha para cadastrar e identificar o usuário
 
 # Arquitetura da Aplicação
 
@@ -27,15 +28,24 @@ Não precisa se limitar a livros, pode ser também para resumos de conceitos, id
 API Rest com Django.
 O Back-end vai armazenar e fornecer para o app os resumos de livros que já estiverem na base de dados
 O Back-end será distribuído, sem um servidor central, formando uma rede descentralizada. 
-Qualquer pessoa pode pegar o código opensource e subir um novo servidor para manter o app funcionando.
+Qualquer pessoa pode pegar o código opensource e subir um novo servidor para manter o app funcionando
 
-# Front-end Mobile
+# Front-End(A Fazer)
+
+- página inicial com um catálogo dos resumos e espaço para colocar titulo e imagem da capa do livro.
+- Na página de resumo, inserir espaço para colocar imagem da capa do livro, nome do livro e texto do resumo.
+- opção para ouvir a versão em áudio do resumo.
+- Sistema de login com e-mail e senha
+
+
+## Front-end Mobile
 
 O App mutiplataforma poderá ser desenvolvido usando Python com Kivy
 
-# Front-end Web
+## Front-end Web
 
-HTML5, CSS3 e Javascriptt já é o suficiente pra versão inicial.
+HTML5, CSS3 e Javascript já é o suficiente pra versão inicial.
+Página Responsiva.
 
 # Conexão do APP com a Rede Distribuída
 
