@@ -1,0 +1,42 @@
+<html>
+<head>
+    <title>Resumos de Livros</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="livros.css">
+</head>
+<body>
+<div id="title"></div>
+
+</div>
+<div id="header"><h1>Resumos de Livros</h1></div>
+<div id="main">
+<h2>Como seria se você pudesse ler um 1 resumo de livro por dia sem precisar pagar assinatura anual?</h2>
+<h2>Escolha 1 livro e leia o resumo gratuitamente</h2>
+<form id="formulario" action="livros.php" method="POST">
+    <div class="row">
+    <select id="livro" name="livro">
+            <option>A Startup Enxuta</option>
+            <option>SCRUM - Arte de Fazer o Dobro do Trabalho na Metade do Tempo</option>
+            <option>SPRINT - O Método usado no Google para testar e aplicar novas ideias em apenas 5 dias</option>
+            <option>STARTUP - Manual do Empreendedor</option>
+            <option>Opensources - Voices from the open source revolution</option>
+        </select>
+    </div>
+    <div class="row">
+      <label class="required" for="name">Seu Nome:</label><br />
+      <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+    </div>
+    <div class="row">
+      <label class="required" for="whatsapp">Seu Whatsapp:</label><br />
+      <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+    </div>
+      
+      <input id="submit_button" type="submit" value="Quero receber por whatsapp" />
+  </form>
+
+</div>
+</body>
+
+
+
+</html>

@@ -1,0 +1,203 @@
+<html>
+<head>
+    <title>Resumos de Livros</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="livros.css">
+</head>
+<body>
+<div id="title"></div>
+
+</div>
+<div id="header"><h1>Resumos de Livros</h1></div>
+<div id="main">
+<h2>Escolha 1 livro e clique para ler o resumo</h2>
+
+</div>
+<div id="container">
+<div class="campolivro" id="livro-1" ><img class="capa-livro" src="images/1.jpg"></div>
+<div class="campolivro" id="livro-2" ><img class="capa-livro" src="images/2.jpg"></div>
+<div class="campolivro" id="livro-3" ><img class="capa-livro" src="images/3.jpg"></div>
+<div class="campolivro" id="livro-4" ><img class="capa-livro" src="images/4.jpg"></div>
+<div class="campolivro" id="livro-5" ><img class="capa-livro" src="images/5.jpg"></div>
+<div class="campolivro" id="livro-6" ><img class="capa-livro" src="images/6.jpg"></div>
+<div class="campolivro" id="livro-7" ><img class="capa-livro" src="images/7.jpg"></div>
+<div class="campolivro" id="livro-8" ><img class="capa-livro" src="images/8.jpg"></div>
+</div>
+
+<div class="hidden" id="resumo1">
+
+<h1>Lean Startup</h1>
+
+<p>Lean Startup foi escrito pelo autor Eric Ries</p>
+<p>Lean Startup foi escrito pelo autor Eric Ries</p>
+<p>Lean Startup foi escrito pelo autor Eric Ries</p>
+<p>Lean Startup foi escrito pelo autor Eric Ries</p>
+<p>Lean Startup foi escrito pelo autor Eric Ries</p>
+<p>Lean Startup foi escrito pelo autor Eric Ries</p>
+<p>Lean Startup foi escrito pelo autor Eric Ries</p>
+<p>Lean Startup foi escrito pelo autor Eric Ries</p>
+<p>Lean Startup foi escrito pelo autor Eric Ries</p>
+
+
+<h2><a href="index.html">Voltar</a></h2>
+</div>
+
+<div class="hidden" id="resumo2">
+
+    <h1>SCRUM</h1>
+    
+    <p>SCRUM é uma metodologia ágil</p>
+    <p>SCRUM é uma metodologia ágil</p>
+    <p>SCRUM é uma metodologia ágil</p>
+    <p>SCRUM é uma metodologia ágil</p>
+    
+    
+    <h2><a href="index.html">Voltar</a></h2>
+    </div>
+
+</body>
+
+<div class="hidden" id="resumo3">
+
+    <h1>resumo3</h1>
+    
+    
+    <h2><a href="index.html">Voltar</a></h2>
+    </div>
+
+</body>
+
+<div class="hidden" id="resumo4">
+
+    <h1>resumo4</h1>
+    
+    
+    <h2><a href="index.html">Voltar</a></h2>
+    </div>
+
+</body>
+
+<div class="hidden" id="resumo5">
+
+    <h1>resumo5</h1>
+
+    
+    
+    <h2><a href="index.html">Voltar</a></h2>
+    </div>
+
+</body>
+
+<div class="hidden" id="resumo6">
+
+    <h1>resumo6</h1>
+    
+    
+    
+    <h2><a href="index.html">Voltar</a></h2>
+    </div>
+
+</body>
+
+<div class="hidden" id="resumo7">
+
+    <h1>resumo7</h1>
+    
+    
+    
+    <h2><a href="index.html">Voltar</a></h2>
+    </div>
+
+</body>
+
+<div class="hidden" id="resumo8">
+
+    <h1>resumo8</h1>
+    
+    
+    
+    <h2><a href="index.html">Voltar</a></h2>
+    </div>
+
+</body>
+
+<script>
+
+//JSON PARA INFORMAÇÕES DE LIVROS
+var livros = {
+  "livro" : [
+    {
+    "nome": "Lean Startup",
+    "autor": "Eric Ries",
+    "texto": "livro sobre startups"
+    },
+    {
+    "nome": "SCRUM",
+    "autor": "Jeff Sutherland",
+    "texto": "livro sobre SCRUM"
+    }
+  ]
+};
+
+// referencia ao livro[0] lean startup alert(livros.livro[0].nome);
+
+
+
+var numLivro;
+
+function clicouNoLivro1(numLivro){
+  document.getElementById("container").setAttribute("class","hidden");
+  document.getElementById("resumo1").setAttribute("class","visible");
+  
+}
+function clicouNoLivro2(numLivro){
+  document.getElementById("container").setAttribute("class","hidden");
+  document.getElementById("resumo2").setAttribute("class","visible");
+}
+function clicouNoLivro3(numLivro){
+  document.getElementById("container").setAttribute("class","hidden");
+  document.getElementById("resumo3").setAttribute("class","visible");
+}
+function clicouNoLivro4(numLivro){
+  document.getElementById("container").setAttribute("class","hidden");
+  document.getElementById("resumo4").setAttribute("class","visible");
+}
+function clicouNoLivro5(numLivro){
+  document.getElementById("container").setAttribute("class","hidden");
+  document.getElementById("resumo5").setAttribute("class","visible");
+}
+function clicouNoLivro6(numLivro){
+  document.getElementById("container").setAttribute("class","hidden");
+  document.getElementById("resumo6").setAttribute("class","visible");
+}
+function clicouNoLivro7(numLivro){
+  document.getElementById("container").setAttribute("class","hidden");
+  document.getElementById("resumo7").setAttribute("class","visible");
+}
+function clicouNoLivro8(numLivro){
+  document.getElementById("container").setAttribute("class","hidden");
+  document.getElementById("resumo8").setAttribute("class","visible");
+}
+
+
+var elemento1 = document.getElementById('livro-1');
+var elemento2 = document.getElementById('livro-2');
+var elemento3 = document.getElementById('livro-3');
+var elemento4 = document.getElementById('livro-4');
+var elemento5 = document.getElementById('livro-5');
+var elemento6 = document.getElementById('livro-6');
+var elemento7 = document.getElementById('livro-7');
+var elemento8 = document.getElementById('livro-8');
+
+elemento1.addEventListener("click", clicouNoLivro1, false);
+elemento2.addEventListener("click", clicouNoLivro2, false);
+elemento3.addEventListener("click", clicouNoLivro3, false);
+elemento4.addEventListener("click", clicouNoLivro4, false);
+elemento5.addEventListener("click", clicouNoLivro5, false);
+elemento6.addEventListener("click", clicouNoLivro6, false);
+elemento7.addEventListener("click", clicouNoLivro7, false);
+elemento8.addEventListener("click", clicouNoLivro8, false);
+</script>
+
+
+</html>
