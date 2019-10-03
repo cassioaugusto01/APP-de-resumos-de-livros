@@ -1,0 +1,40 @@
+#header {
+    background:rgb(139, 221, 118);
+    padding:10px;
+}
+
+#main {
+    background:rgb(139, 221, 118);
+    padding:10px;
+}
+
+#contact_form {}
+
+#container {
+    width: 100%;
+    border-color: blue;
+    text-align: center;
+}
+
+.campolivro {
+    float: left;
+    width: 150px; height: 200px;
+    margin: 10px 20px;
+}
+
+.campolivro img {
+    max-width:150px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+}
+
+.visible {
+    
+}
+
+.hidden {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}

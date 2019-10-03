@@ -1,0 +1,18 @@
+#container {
+    width: 100%;
+    border-color: blue;
+    text-align: center;
+}
+
+.campolivro {
+    float: left;
+    width: 150px; height: 200px;
+    margin: 10px 20px;
+}
+
+.campolivro img {
+    max-width:150px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+}
